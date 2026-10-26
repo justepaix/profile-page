@@ -19,11 +19,42 @@ header ul{
     gap: 20px;
 }
 
-a{
+header a{
     color: #fff;
     text-decoration: none;
 }
 
-a:hover{
+header a:hover{
     color: #aaa;
+}
+
+.hero h2{
+    color: #333;
+    font-size: 50px;
+}
+
+button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #555;
+}
+
+.hero {
+    background-color: #e0e0e0;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.hero p{
+    max-width: 600px;
+    margin: 20px auto;
 }
